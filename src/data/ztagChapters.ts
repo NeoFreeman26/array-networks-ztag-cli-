@@ -1,0 +1,130 @@
+import { ChapterCategory } from '../types/ztag';
+
+export const ZTAG_CHAPTERS: ChapterCategory[] = [
+  {
+    id: 'all',
+    title: 'All Commands',
+    titleZh: '全部指令',
+    iconName: 'Layers',
+  },
+  {
+    id: 'ch1',
+    title: '1. Command Line Introduction',
+    titleZh: '1. 指令行基礎與模式切換',
+    iconName: 'Terminal',
+  },
+  {
+    id: 'ch2',
+    title: '2. Basic System Configuration',
+    titleZh: '2. 基礎網路、DNS、時間與健康檢查',
+    iconName: 'Network',
+  },
+  {
+    id: 'ch3',
+    title: '3. Advanced System Configuration',
+    titleZh: '3. 聚合鏈路、VLAN、NAT 與動態路由 (OSPF/BGP)',
+    iconName: 'GitFork',
+  },
+  {
+    id: 'ch4',
+    title: '4. Virtual Site',
+    titleZh: '4. 虛擬站點 (Virtual Site)',
+    iconName: 'Globe',
+  },
+  {
+    id: 'ch5',
+    title: '5. AAA & Authentication',
+    titleZh: '5. AAA 認證管理 (LocalDB/LDAP/Radius/SMS/SAML)',
+    iconName: 'ShieldCheck',
+  },
+  {
+    id: 'ch6',
+    title: '6. User Policy & SPA',
+    titleZh: '6. 使用者策略、ACL、連線管理與單包授權 (SPA)',
+    iconName: 'Users',
+  },
+  {
+    id: 'ch7',
+    title: '7. Intranet Stealth Service',
+    titleZh: '7. 隱身服務 (AP Agent / AP Center)',
+    iconName: 'EyeOff',
+  },
+  {
+    id: 'ch8',
+    title: '8. VPN Settings',
+    titleZh: '8. VPN 設定 (Netpool/Client/IPSec/TAP/Site2Site)',
+    iconName: 'Lock',
+  },
+  {
+    id: 'ch9',
+    title: '9. Web Access & Rewriting',
+    titleZh: '9. 網頁資源轉發、重寫與敏感資料脫敏',
+    iconName: 'FileCode',
+  },
+  {
+    id: 'ch10',
+    title: '10. Resource Management & SSO',
+    titleZh: '10. 資源管理與單一簽入 (SSO POST/模擬登入)',
+    iconName: 'Key',
+  },
+  {
+    id: 'ch11',
+    title: '11. Web Portal',
+    titleZh: '11. Portal 主題外觀與自訂頁面',
+    iconName: 'Layout',
+  },
+  {
+    id: 'ch12',
+    title: '12. Endpoint Security Policy',
+    titleZh: '12. 終端安全策略 (網頁動態浮水印)',
+    iconName: 'Stamp',
+  },
+  {
+    id: 'ch13',
+    title: '13. High Availability (HA)',
+    titleZh: '13. 高可用性 HA (雙機熱備/漂移IP/心跳/狀態同步)',
+    iconName: 'Cpu',
+  },
+  {
+    id: 'ch14',
+    title: '14. HTTP Settings & Cache',
+    titleZh: '14. HTTP 設定、標頭增刪、快取與防護',
+    iconName: 'Server',
+  },
+  {
+    id: 'ch15',
+    title: '15. SSL Acceleration & Certs',
+    titleZh: '15. SSL 加速、憑證管理 (RSA/ECC/PQC) 與 OCSP/CRL',
+    iconName: 'FileCheck',
+  },
+  {
+    id: 'ch16',
+    title: '16. Firewall & WebWall',
+    titleZh: '16. 防火牆 (Accesslist 存取清單 & WebWall)',
+    iconName: 'Flame',
+  },
+  {
+    id: 'ch17',
+    title: '17. Log & Syslog',
+    titleZh: '17. 日誌系統 (Syslog/告警/RFC5424/自訂日誌)',
+    iconName: 'ScrollText',
+  },
+  {
+    id: 'ch18',
+    title: '18. System Management',
+    titleZh: '18. 系統管理、三權分立、SSH/API 存取與備份還原',
+    iconName: 'Settings',
+  },
+  {
+    id: 'ch19',
+    title: '19. Management Tools & Debug',
+    titleZh: '19. 管理工具、連線偵測 (ping/trace) 與除錯診斷',
+    iconName: 'Wrench',
+  },
+  {
+    id: 'appendix',
+    title: 'Appendix: SNMP OID List',
+    titleZh: '附錄：SNMP OID 清單速查',
+    iconName: 'ListFilter',
+  },
+];

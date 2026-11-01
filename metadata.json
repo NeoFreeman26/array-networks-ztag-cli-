@@ -1,0 +1,6 @@
+{
+  "name": "ArrayOS ZTAG CLI 指令速查手冊",
+  "description": "專業 ArrayOS ZTAG 10.3 CLI 指令查詢、參數說明、實戰範例與指令產生工具",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
